@@ -1,0 +1,392 @@
+#header {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    width: 100%;
+    background: white;
+    height: 75px;
+    border: bottom, 1px, grey;
+    }
+
+   #name{
+    float: left;
+    margin-top: -25px;
+    font-size: 20px;
+    color: white;
+    background: #4aaaa5;
+    height: 100px;
+    width: 180px;
+    text-align: center;
+    line-height: 70px;
+    }
+
+    #About,
+    #Portfolio,
+    #Contact{
+            float: right;
+            line-height: 90px;
+            
+    }
+
+body {
+    margin:0;
+    padding:0;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    background-attachment: fixed;
+   
+   }
+
+  
+button {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: gray;
+}
+
+
+
+
+
+
+
+.container {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    content: center;
+    background: white;
+    
+  }
+
+h2 {
+    margin-left:2%;
+    color:#4aaaa5;
+    line-height: 70px;
+}
+
+#About-Me,
+ {
+    float: left;
+}
+
+
+#photo{
+    widows: 100px;
+    margin-left: 14px;
+    margin-right: 24px;
+    float:left;
+}
+.floatstop {
+    clear:both;
+}
+
+#intro {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: grey;
+    margin-left: 24px;
+    margin-right: 24px;
+    line-height: 52px;
+    text-align: left; 
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+
+
+
+
+  .footer,
+  .push {
+    height: 50px;
+    background: grey;
+    
+    }
+
+
+ .footer {
+        
+        color: white;
+        text-align: center;
+        line-height: 70px;
+        font-size: 7px;
+    }
+
+
+
+.push{
+    width: 100%;
+    background: #4aaaa5;
+    height: 8px;
+    
+}
+
+#cont{
+    float: left;
+    margin-top: -25px;
+    font-size: 20px;
+    color: white;
+    background: #4aaaa5;
+    height: 100px;
+    width: 180px;
+    text-align: center;
+    line-height: 70px;
+    position: relative;
+    }
+
+    #tex {
+        width:95%;
+        margin-left: 2.5%;
+        line-height: 45px;
+    
+    }
+
+
+    #tex1 {
+        width:95%;
+        height: 80px;
+        margin-left: 2.5%;
+        line-height: 45px;
+        margin-bottom: 150px;
+    }
+  
+    .textarea {
+        float: left;
+    }
+#b1,
+#b3,
+#b7 {
+    float: left;
+}
+
+
+#b2,
+#b4 {
+        float: right;
+    }
+
+
+
+
+
+    #Bu {
+    
+    background: #4aaaa5;
+    color: white;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+    margin-left:5%;
+    margin-bottom: 25%;
+    position: relative;
+    }
+    
+
+
+
+   pic {
+        float:left;
+        width: 150px;
+        text-align: center;
+        overflow: hidden;
+        }
+
+    #a1,
+    #a2,
+    #a3,
+    #a4,
+    #a5 {
+        float:left;
+        width: 960px;
+        text-align: center;
+        overflow: hidden;
+        }
+
+    .small_img,.big_img {  
+        cursor: pointer;
+    
+      }   
+.black_overlay{   
+        display: none;   
+        position: absolute;   
+        top: 0%;   
+        left: 0%;   
+        width: 100%;   
+        height: 100%;   
+        background-color: black;   
+        z-index:1001;   
+        -moz-opacity: 0.8;   
+        opacity:0.6;   
+        filter: alpha(opacity=80);    
+      }   
+.big_img {   
+        display: none;   
+        position: absolute;   
+                
+        left: 0%;  
+        top: 0%;
+        width: 460px;
+        height: auto;
+        margin: -60px 0px 0px -60px;  
+        z-index:1002;   
+        overflow: auto;   
+      }  
+
+#b1{
+            float: left;
+            padding: 30px;
+            margin-left: 30px;
+            background: #fff;
+            color: #333;
+            width: 33.3%;
+            height: 200px;
+            border: 1px, solid #eee;
+          }
+#b2 {
+            float: left;
+            padding: 30px;
+            margin-left: 30px;
+            background: #fff;
+            color: #333;
+            width: 33.3%;
+            height: 200px;
+            border: 1px, solid #eee;
+          }
+
+          #b3 {
+            float: left;
+            padding: 30px;
+            margin-left: 30px;
+            background: #fff;
+            color: #333;
+            width: 33.3%;
+            height: 200px;
+            border: 1px, solid #eee;
+          }
+
+          #b4 {
+            float: left;
+            padding: 30px;
+            margin-left: 30px;
+            background: #fff;
+            color: #333;
+            width: 33.3%;
+            height: 200px;
+            border: 1px, solid #eee;
+          }
+
+        #b7 {
+            float: left;
+            padding: 30px;
+            margin-left: 30px;
+            background: #fff;
+            color: #333;
+            width: 33.3%;
+            height: 200px;
+            border: 1px, solid #eee;
+          }
+
+          .social:hover {
+            cursor: pointer;
+            opacity: 0.8;
+            float: right;
+          }
+
+
+
+@media screen and (max-width: 980px){
+    .container { 
+        width: 70%;
+        margin-left: 30px;
+        
+                
+    }
+
+    #intro {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 200px;
+    }
+
+    pic{
+        width: 350 px;
+        height: 350px;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px){
+    .container { 
+        width: 90%;
+        margin-left: 30px;
+        
+                
+    }
+
+    #intro {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 200px;
+    }
+
+    pic{
+        width: 350 px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    
+    
+    .container { 
+    width: 90%;
+    margin-left: 30px;
+    
+            
+}
+
+#name{
+    width:100%;
+}
+
+
+#About,
+#Portfolio,
+#Contact{
+        float: right;
+        line-height: 20px;
+        
+}
+
+
+#About-me{
+    margin-left: 34%;
+}
+
+
+#photo {
+    width: 90%;
+    height: auto;
+    margin-left: 25%;
+}
+
+#intro {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 200px;
+}
+
+pic{
+    width: 350 px;
+    height: 350px;
+}
+}
+
+         
